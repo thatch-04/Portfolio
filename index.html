@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tim Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" >
+
+         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:400,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Tim Hatch</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">full stack dev</p>
+            <img src="img/Thatch headshot.jpeg" alt="a picture of Tim Hatch" class="intro__img">
+        </section>
+        <!--My Services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Communication</h3>
+                    <p>In my previous roles as an engineer I became accustomed to collaborating with project teams, other engineers, and customers on projects.</p>
+                </div>
+                <div class="service">
+                    <h3>Project Management</h3>
+                    <p>My background in project management has taught me how to lead project teams to success and achieve project milestones on a deadline.</p>
+                </div>
+                <div class="service">
+                    <h3>Problem Solving</h3>
+                    <p>My experience as an engineer has helped me hone my problem solving skills and my approach to problem solving. The software engineering process is dynamic and I pride myself on my ability to troubleshoot and solve problems as they arise.</p>
+                </div>
+            </div>
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!--About Me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Web Developer based in the Chicago area</p>
+            
+            <div class="about-me__body">
+                <p>I create full stack mordern web applications to solve customer needs</p>
+                <p>
+                    When I'm not working on a coding project I enjoying gaming with friends. 
+                    You can find me at local game stores in the chicago area and join me for a game.
+                </p>
+            </div>
+
+            <img src="img/thatch_brewery.jpg" alt="A photo of me at a brewery with the same name." class="about-me__img">
+        </section>
+        <!--Work-->
+
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">Examples of my range of work</p>
+
+            <div class="portfolio">
+                <!--Portfolio Project 1-->
+                <a href="https://poke-moves.vercel.app/" class="portfolio__item">
+                    <img src="img/Poke-moves.png" alt="" class="portfolio__img">
+                </a>
+                <!--Portfolio Project 2-->
+                <a href="https://thatchwishlist-app.herokuapp.com/" class="portfolio__item">
+                    <img src="img/Wishlist.PNG" alt="" class="portfolio__img">
+                </a>
+                <!--Portfolio Project 3-->
+                <a href="https://60b58f883d5cba4eedcf081d--eloquent-hoover-99825c.netlify.app/" class="portfolio__item">
+                    <img src="img/Note-Books.PNG" alt="" class="portfolio__img">
+                </a>
+                <!--Portfolio Project 4-->
+                <!-- <a href="#" class="portfolio__item">
+                    <img src="" alt="" class="portfolio__img">
+                </a>-->
+                <!--Portfolio Project 5-->
+                <!-- <a href="#" class="portfolio__item">
+                    <img src="" alt="" class="portfolio__img">
+                </a> -->
+                <!--Portfolio Project 6-->
+                <!-- <a href="#" class="portfolio__item">
+                    <img src="" alt="" class="portfolio__img">
+                </a> -->
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer">
+            <a href="timhatch2@gmail.com" class="footer__link">timhatch2@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/fr0z3nsun">
+                        <i class="fab fa-codepen"></i>
+                    </a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/timothy-hatch-1519a6bb/">
+                        <i class="fab fa-linkedin"></i>
+                    </a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/thatch-04">
+                        <i class="fab fa-github"></i>
+                    </a></li>
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
+
+    </body>
+
+</html>
